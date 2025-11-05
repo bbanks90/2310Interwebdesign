@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - One14 Juice Bar</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="wrapper inner">
+      <div class="site-title"><a href="index.html">One14 Juice Bar</a></div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <h1>Contact</h1>
+    <p class="note">Reach out for questions, catering, or collabs. </p>
+
+    <div class="contact-grid">
+      <!-- Left column: Info, Hours, Map, FAQ -->
+      <div class="col">
+        <div class="card">
+          <h2>Contact Info</h2>
+          <address>
+            <ul class="contact-list">
+              <li><strong>Address:</strong> 114 Market Street, Suite B, Chattanooga, TN 37402</li>
+              <li><strong>Phone:</strong> <a href="tel:+14235559814">(423) 555‑9814</a></li>
+              <li><strong>Email:</strong> <a href="mailto:hello@one14juicebar.com">hello@one14juicebar.com</a></li>
+              <li><strong>Instagram:</strong> <a href="#" rel="noopener">@one14juicebar</a></li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="card">
+          <h2>Hours</h2>
+          <ul class="hours">
+            <li><span class="day">Mon</span> <span class="time">7:00a – 6:00p</span></li>
+            <li><span class="day">Tue</span> <span class="time">7:00a – 6:00p</span></li>
+            <li><span class="day">Wed</span> <span class="time">7:00a – 6:00p</span></li>
+            <li><span class="day">Thu</span> <span class="time">7:00a – 6:00p</span></li>
+            <li><span class="day">Fri</span> <span class="time">7:00a – 7:00p</span></li>
+            <li><span class="day">Sat</span> <span class="time">9:00a – 4:00p</span></li>
+            <li><span class="day">Sun</span> <span class="time">Closed</span></li>
+          </ul>
+          <p class="small">Holiday hours may vary.</p>
+        </div>
+
+        <div class="card">
+          <h2>Find Us</h2>
+          <figure class="media ratio-16x9">
+            <img src="images/map.svg" alt="Map showing One14 Juice Bar on Market Street in Chattanooga">
+          </figure>
+          <p class="small">Street parking available on Market St and nearby lots.</p>
+        </div>
+
+        <div class="card">
+          <h2>FAQ</h2>
+          <details>
+            <summary>Do you offer catering?</summary>
+            <p>Yes—email us your event date, headcount, and preferred items. We’ll reply with options.</p>
+          </details>
+          <details>
+            <summary>Are there allergy-friendly options?</summary>
+            <p>We have dairy-free and nut-free choices. Always let us know about allergies.</p>
+          </details>
+          <details>
+            <summary>How can I work with One14?</summary>
+            <p>For partnerships or campus events, select “Collaboration” in the form.</p>
+          </details>
+        </div>
+      </div>
+
+      <!-- Right column: Form -->
+      <div class="col">
+        <div class="card">
+          <h2>Send a Message</h2>
+          <form>
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option>General</option>
+              <option>Catering</option>
+              <option>Collaboration</option>
+              <option>Feedback</option>
+            </select>
+
+            <label for="name">Name <span class="req">*</span></label>
+            <input id="name" name="name" placeholder="Your name" required />
+
+            <label for="email">Email <span class="req">*</span></label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" name="phone" placeholder="(423) 555‑9814" />
+
+            <label>Preferred Contact</label>
+            <div>
+              <label><input type="radio" name="contact_pref" value="email" checked /> Email</label>
+            </div>
+            <div>
+              <label><input type="radio" name="contact_pref" value="phone" /> Phone</label>
+            </div>
+
+            <label for="time">Best Time to Reach You</label>
+            <select id="time" name="time">
+              <option>Morning</option>
+              <option>Afternoon</option>
+              <option>Evening</option>
+            </select>
+
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea id="message" name="message" placeholder="How can we help?" required></textarea>
+
+            <label for="attachment">Attachment (optional)</label>
+            <input id="attachment" name="attachment" type="file" accept=".pdf,image/*" />
+
+            <div style="margin:8px 0">
+              <label><input type="checkbox" name="newsletter" /> Add me to the newsletter</label>
+            </div>
+
+            <button type="submit">Send</button>
+            <p class="small">By submitting, you agree to our basic privacy policy. This demo form does not submit
+              anywhere yet.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrapper inner">
+      <div>&copy; 2025 One14 Juice Bar · <a href="mailto:hello@one14juicebar.com">hello@one14juicebar.com</a> · <a
+          href="tel:+14235559814">(423) 555‑9814</a></div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
