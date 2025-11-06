@@ -1,4 +1,4 @@
-/* One14 College Site - styles.css (responsive images, no JS) */
+/* One14 Juice - styles.css  */
 
 /* ===== Reset / Base ===== */
 * {
@@ -58,7 +58,7 @@ p {
     max-width: 70ch;
 }
 
-/* ===== Header / Nav (UL/LI only) ===== */
+/* ===== Header / Nav ===== */
 header {
     background: #fff;
     border-bottom: 1px solid #e5e5e5;
